@@ -54,7 +54,7 @@ public class RuleTest {
         }
 
         LOG.info("Creating kieBase");
-        KieBase kieBase = kContainer.getKieBase();
+        KieBase kieBase = kContainer.getKieBase("KBaseA");
 
         LOG.info("There should be rules: ");
         for ( KiePackage kp : kieBase.getKiePackages() ) {
