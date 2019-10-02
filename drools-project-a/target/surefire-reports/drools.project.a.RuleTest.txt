@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: drools.project.a.RuleTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.818 s <<< FAILURE! - in drools.project.a.RuleTest
-test(drools.project.a.RuleTest)  Time elapsed: 0.741 s  <<< ERROR!
-java.lang.RuntimeException: Cannot find a default KieBase
-	at drools.project.a.RuleTest.test(RuleTest.java:57)
-
