@@ -75,12 +75,12 @@ public class RuleTest {
 	LOG.info("Inserting for Project A");
         Measurement mRed= new Measurement("color", "red");
         session.insert(mRed);
-        session.fireAllRules();
 
 	LOG.info("Inserting for Project B");
         Dog poodle = new Dog("breed", "poodle");
         session.insert(poodle);
-        session.fireAllRules();
+
+	session.fireAllRules();
 
         LOG.info("Final checks");
 
